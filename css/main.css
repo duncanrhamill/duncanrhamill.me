@@ -5,7 +5,10 @@ body {
 }
 
 main {
+    display: flex;
+    flex-direction: column;
     flex: 1 0 auto;
+    justify-content: center;
 }
 
 .page-footer {
@@ -15,5 +18,15 @@ main {
 .project-img {
     width: 100% !important;
     height: auto !important;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.main-container > object {
+    flex: 1;
 }
     
