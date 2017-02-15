@@ -1,0 +1,100 @@
+<html>
+    <!-- Site created by Duncan R Hamill, using Materialize.css -->
+<head>
+    <!-- Import Google Icon Font -->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+    <!-- Let browser know website is optimized for mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+    <title>Duncan R Hamill - Contact</title>
+</head>
+<body>
+    <!-- Import jQuery before materialize.js -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <!-- Minimized js for materialize -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+    <!-- FontAwseome -->
+	<script src="https://use.fontawesome.com/f6ca02b6b3.js"></script>
+    <!-- main js file -->
+    <script type="text/javascript" src="../js/main.js"></script>
+
+    <header>
+        <div class="navbar-fixed">
+            <nav class="red darken-3">
+                <div class="navbar-wrapper">
+                    <div class="container hide-on-med-and-down">
+                        <a href="../index.html" class="brand-logo">Duncan R Hamill</a>
+                        <ul class="right">
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="cv.html">CV</a></li>
+                            <li class="active"><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="hide-on-large-only">
+                        <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
+                        <a href="../index.html" class="brand-logo">Duncan R Hamill</a>
+                        <ul class="side-nav" id="mobile-nav">
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="cv.html">CV</a></li>
+                            <li class="active"><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="valign-wrapper">
+        <div class="row container hide-on-med-and-down">
+            <div class="center col l4 tooltipped" style="cursor: pointer;" onclick="window.location='mailto:duncanrhamill@googlemail.com';"
+                data-position="top" data-delay="50" data-tooltip="Send me an email">
+                <i class="red-text text-darken-2 material-icons large">email</i>
+                <p class="flow-text">duncanrhamill@googlemail.com</p>
+            </div>
+            <div class="center col l4 tooltipped" style="cursor: pointer;" onclick="window.location='http://github.com/duncanrhamill';"
+                data-position="top" data-delay="50" data-tooltip="Find me on GitHub">
+                <i class="blue-text text-darken-2 fa fa-github large"></i>
+                <p class="flow-text">duncanrhamill
+            </div>
+            <div class="center col l4 tooltipped"
+                data-position="top" data-delay="50" data-tooltip="Add me on WhatsApp">
+                <i class="green-text text-darken-2 fa fa-whatsapp large"></i>
+                <p class="flow-text">+447591482035</p>
+            </div>
+        </div>
+        <div class="hide-on-large-only">
+            <div class="row">
+                <div class="center col s12" onclick="window.location='mailto:duncanrhamill@googlemail.com';">
+                    <i class="red-text text-darken-2 material-icons large">email</i>
+                    <p class="flow-text">duncanrhamill@googlemail.com</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="center col s12" onclick="window.location='http://github.com/duncanrhamill';">
+                    <i class="blue-text text-darken-2 fa fa-github large"></i>
+                    <p class="flow-text">duncanrhamill
+                </div>
+            </div>
+            <div class="row">
+                <div class="center col s12" onclick="window.location='intent://send/+447591482035#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end'">
+                    <i class="green-text text-darken-2 fa fa-whatsapp large"></i>
+                    <p class="flow-text">+447591482035</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="page-footer red darken-3">
+        <div class="footer-copyright">
+            <div class="container white-text">
+                <span>Created by Duncan R Hamill using Materialize.css</span>
+                <span><a class="white-text right" href="https://github.com/duncanrhamill/duncanrhamill.me"><i class="fa fa-github"></i> github</a></span>
+            </div>
+        </div>
+    </footer>
+
+    <link rel="stylesheet" href="../css/main.css">
+</body>
+</html>
